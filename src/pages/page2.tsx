@@ -9,8 +9,8 @@ export default function Home() {
         <main
             className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
         >
-            <h1 className="text-xl">Current Location: Home page</h1>
-            <button onClick={() => router.push('/page2')}>Go to Page 2</button>
+            <h1>Current Location: Page 2</h1>
+            <button onClick={() => router.push('/')}>Go to Home</button>
         </main>
     );
 }
